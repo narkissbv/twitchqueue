@@ -31,7 +31,7 @@
   <div class="container">
       <div class="valign-wrapper h100">
         <div class="col">
-          <h1 class="white-text">Cindy's Queue Manager</h1>
+          <h1 class="white-text">Queue Manager</h1>
           <div class="card">
             <div class="card-content white-text">
               <span class="card-title">Manage the queue below</span>
