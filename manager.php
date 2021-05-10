@@ -2,10 +2,11 @@
   if(!isset($_SESSION)) { 
     session_start();
   }
+  $my_password = 'setyourpasswordhere';
   if ($_POST) {
     if (isset($_POST['password'])) {
       $password = $_POST['password'];
-      if ($password != '{aMf*V8k2T{)RPSf') {
+      if ($password != $my_password) {
         header("Location: /");
       } else {
         $_SESSION['active'] = true;
