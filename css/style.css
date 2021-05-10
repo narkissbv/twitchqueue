@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url('../assets/wattson.png');
+  background-size: cover;
+}
+
+.h100 {
+  height: 100vh;
+}
+
+.card,
+.btn {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.list-container .row {
+  padding-bottom: 8px;
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  margin-bottom: 8px;
+}
+
+.list-container .row:last-child {
+  border: none;
+}
+
+.list-container .row span {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+}
