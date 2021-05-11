@@ -20,3 +20,7 @@ Nightbot examples:
 Website manager
 --
 Set a manager password in `manager.php` and use that password to secretly log in to manager.  
+
+DATABASE
+--
+Use `queuedb.sql` in your MySQL server to create a new DB and a table.  
