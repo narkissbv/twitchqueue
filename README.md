@@ -4,9 +4,9 @@ Helps viewers on Twitch to queue up for games with the streamer.
 
 REQUIREMENTS
 --
-PHP server
-MySQL DB
-Nightbot (or equivalent chat bot)
+PHP server  
+MySQL DB  
+Nightbot (or equivalent chat bot)  
 
 BOT COMMANDS
 --
