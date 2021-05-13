@@ -4,9 +4,9 @@ Helps viewers on Twitch to queue up for games with the streamer.
 
 REQUIREMENTS
 --
-PHP server  
-MySQL DB  
-Nightbot (or equivalent chat bot)  
+- PHP server  
+- MySQL DB  
+- Nightbot (or equivalent chat bot)  
 
 BOT COMMANDS
 --
@@ -18,12 +18,12 @@ set 'remove' command to send a `GET` request to `remove.php` with this payload:
 
 set 'queue' command to send a `GET` request to `queue.php`.
 
-Nightbot examples:  
+**Nightbot examples:**  
 (for !join) `$(urlfetch https://mywebsite.com/join.php?username=$(user))`  
 (for !leave) `$(urlfetch https://mywebsite.com/leave.php?username=$(user))`  
 (for !queue) `$(urlfetch https://mywebsite/queue.php)`  
 
-Website manager
+WEBSITE MANAGER
 --
 Set a manager password in `manager.php` and use that password to secretly log in to manager.  
 
