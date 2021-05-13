@@ -17,8 +17,8 @@ function fetchQueue () {
 }
 
 function buildList () {
+  const container = document.querySelector('.list-container');
   if (queue.length > 0) {
-    const container = document.querySelector('.list-container');
     const template = document.getElementById('list-item');
     let clone = null;
     container.textContent = '';
@@ -68,5 +68,7 @@ function buildList () {
       })
       container.appendChild(clone);
     })
+  } else {
+    container.textContent = '';
   }
 }
